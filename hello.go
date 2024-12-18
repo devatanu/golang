@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
 	"bufio"
@@ -46,7 +46,7 @@ func welcomeMessage(title, firstName string) {
 	fmt.Println("\nHello,", title, firstName)
 }
 
-func main() {
+func hello() {
 	var firstName, title string
 
 	for i := 1; i <= 2; i++ {
