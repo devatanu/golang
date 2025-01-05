@@ -1,0 +1,11 @@
+'Author: Devatanu Banerjee
+'Date: 04 Jan 2024
+
+@startuml PIDV
+F -> WAPI: MM Request
+WAPI -> PMS: Check PSys Status A
+PMS -> PSys: Check PSys Status
+PMS -> PMS: Update DB
+PSys --> WAPI: Success
+WAPI -> F: Success
+@enduml
