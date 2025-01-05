@@ -1,3 +1,5 @@
 mode: set
-github.com/devatanu/golang/arrays.go:5.48,7.2 1 1
-github.com/devatanu/golang/arrays.go:9.13,16.2 4 0
+github.com/devatanu/golang/arrays.go:6.53,7.36 1 1
+github.com/devatanu/golang/arrays.go:7.36,10.3 2 1
+github.com/devatanu/golang/arrays.go:10.8,13.3 2 1
+github.com/devatanu/golang/arrays.go:16.13,21.2 4 0
